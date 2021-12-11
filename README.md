@@ -27,9 +27,9 @@ Spring Data Rest
   - **Configuration**:  
       - add entry in application.properties: spring.data.rest.base-path=/newpath    
       - and/or annotate JPA Repository interface: @RepositoryRestResource(path="members").  
-      - new access path: http://localhost:8080/newpath/members;
+      - new access path: localhost:8080/newpath/members;
   - **Pagination**:  add entry in application.properties (zerro based);
-  - **Sorting**: in url uppend ?sort=lastName, etc....    http://localhost:8080/customers?sort=lastName;  
+  - **Sorting**: in url uppend ?sort=lastName, etc....    localhost:8080/customers?sort=lastName;  
       
     
 [BACK TO START PAGE](https://github.com/FlorescuAndrei/Start.git) 
